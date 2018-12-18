@@ -9,6 +9,6 @@ setInterval(function() {
     title.style.color = 'green';
     red = false;
   }
-}, 500);
+}, 100);
 
 setInterval
