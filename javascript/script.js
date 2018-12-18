@@ -1,8 +1,7 @@
 let red = false;
+let title = document.querySelector('.main-menu-title');
 
 setInterval(function() {
-  let title = document.getElementById('main-title');
-
   if(!red) {
     title.style.color = 'red';
     red = true;
@@ -10,4 +9,6 @@ setInterval(function() {
     title.style.color = 'green';
     red = false;
   }
-}, 1000);
+}, 500);
+
+setInterval
